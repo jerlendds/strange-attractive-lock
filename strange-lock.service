@@ -1,11 +1,11 @@
-# ~/.config/systemd/user/simone-screensaver.service
+# ~/.config/systemd/user/strange-screensaver.service
 [Unit]
-Description=Simone attractor screensaver (glslViewer)
+Description=Strange attractor screensavers (glslViewer)
 After=graphical-session.target
 
 [Service]
 Type=simple
-ExecStart=%h/.local/share/simone_screensaver/run_simone.sh
+ExecStart=%h/.local/share/screensaver/run-simone.sh
 ExecStop=/usr/bin/pkill -f 'glslViewer.*simone.frag'
 Restart=on-failure
 
