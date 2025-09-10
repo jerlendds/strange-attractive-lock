@@ -7,5 +7,5 @@ a collection of experimental shaders inspired by chaos theory, strange attractor
 
 ## `simone.frag`
 
-[!simone.frag](https://github.com/user-attachments/assets/334a3a18-9599-42e0-807b-782bb8669d02)
+[!simone.frag](https://github.com/user-attachments/assets/323eaa68-2042-4f58-ad1b-f85edf5f9f45)
 
