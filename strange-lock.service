@@ -1,0 +1,13 @@
+# ~/.config/systemd/user/simone-screensaver.service
+[Unit]
+Description=Simone attractor screensaver (glslViewer)
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/share/simone_screensaver/run_simone.sh
+ExecStop=/usr/bin/pkill -f 'glslViewer.*simone.frag'
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
