@@ -7,15 +7,15 @@ uniform float u_time;
 
 #define INTENSE     1
 #if INTENSE
-  #define SAMPLES   4
-  #define WARMUP    9
+  #define SAMPLES   6
+  #define WARMUP    900
   #define STEPS     720
 #else
   #define SAMPLES   120
   #define WARMUP    180
   #define STEPS     420
 #endif
-#define ZOOM 0.35
+#define ZOOM 0.55
 
 float h11(float p){
     p = fract(p * 0.1031);
