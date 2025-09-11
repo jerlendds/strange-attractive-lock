@@ -40,7 +40,7 @@ Go check them out for an interactive version!
 
 - [!simone.frag embed](https://github.com/user-attachments/assets/323eaa68-2042-4f58-ad1b-f85edf5f9f45)
 
-
+to be continued...
 
 
 # Inspiration
